@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(0, 0%, 100%);
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  padding: 30px 30px 20px 30px;
+  background-color: hsl(216, 50%, 16%);
+  width: 350px;
+  border-radius: 20px;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.card-title {
+  padding: 10px 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card-description {
+  font-size: 18px;
+  padding: 10px 0;
+  font-weight: 300;
+}
+
+.block {
+  padding: 10px 0 20px 0;
+  display: block;
+  overflow: hidden;
+  font-size: 15px;
+  justify-content: center;
+}
+
+.card-smol-flexbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-smol-flexbox img {
+  margin: 0 5px 0 0;
+}
+
+.price-info {
+  float: left;
+  font-weight: 600;
+}
+
+.time-left {
+  float: right;
+  font-weight: 300;
+}
+
+.card-footer {
+  display: flex;
+  overflow: hidden;
+  font-size: 15px;
+  padding: 20px 0 10px 0;
+  align-items: center;
+  font-weight: 300;
+}
+
+.card-footer .span {
+  padding: 0 0 0 15px;
+}
+
+.card-avatar {
+  width: 40px;
+  border-style: solid;
+  border-color: hsl(0, 0%, 100%);
+  border-radius: 60px;
+}
+
+hr {
+  height: 1px;
+  border: 0;
+  border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+.soft-blue { color: hsl(215, 51%, 70%) }
+
+.cyan { color: hsl(178, 100%, 50%) }
